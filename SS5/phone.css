@@ -1,0 +1,8 @@
+@media only and (max-width: 480px){
+    .container-navbar{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+}

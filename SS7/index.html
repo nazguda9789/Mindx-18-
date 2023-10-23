@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+
+
+        // let num = 10
+        // console.log(num++)
+        // console.log(++num)
+
+
+        function onInput1() {
+            let num1 = document.querySelector("#num1").value
+            console.log(num1);
+        }
+        
+        function onInput2() {
+            let num2 = document.querySelector("#num2").value
+            console.log(num2);
+        }
+        
+        function onInput3() {
+            let operator = document.querySelector("#operator").value
+            console.log(operator);
+        }
+    </script>
+
+    <div>
+        <div>
+            <label>Number 1:</label>
+            <input type="num" id="num1" onInput = "onInput1()"/>
+        </div>
+        <div>
+            <label>Number 2:</label>
+            <input type="num" id="num2" onInput = "onInput2()"/>
+        </div>
+        <div>
+            <label>Text 1:</label>
+            <input type="text" id="operator" onInput = "onInput3()"/>
+        </div>
+        <button onclick>CalculateButton</button>
+    </div>
+
+</body>
+
+</html>
